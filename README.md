@@ -8,10 +8,10 @@ Tested on these Huawei devices.
 1. E5778
 2. E5885 (Global-one egg in Korea)
 
-##Supported clients
-Every JS supported modern browsers.
+## Supported clients
+Every Javascript supported modern browsers.
 
-Tested on these clients.
+### Tested on these clients.
 Mac OS Safari, Chrome
 iOS Safari
 

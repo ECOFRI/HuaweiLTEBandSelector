@@ -1,4 +1,3 @@
-
 function currentBand()
 {
     $.ajax({
@@ -32,7 +31,7 @@ function ltebandselection()
 {
     if(arguments.length==0)
     {
-        var band = prompt("사용하고자 하는 LTE Band를 입력하세요. 여러 개의 Band를 사용할 경우 띄어쓰기 없이 +로 이어서 입력하세요. (Ex. SKT 1+3+5+7 / KT 3+8 / LG 1+5+7)","1+3+5+7");
+        var band = prompt("Please input desirable LTE band number. If you want to use multiple LTE bands, write down multiple band number joined with '+'. If you want to use every supported bands, write down 'ALL'. (Ex. SKT 1+3+5+7 / KT 1+3+8 / LG U+ 1+5+7)","ALL");
         if(band==null||band==="")
         {
             return;
@@ -42,7 +41,7 @@ function ltebandselection()
    
     if(!window.location.href.includes("/html/home.html"))
     {
-        alert("메인 화면에서만 사용 가능합니다.");
+        alert("You can use this function only in main page.");
         return;
     }
     else
